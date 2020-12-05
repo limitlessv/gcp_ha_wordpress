@@ -8,6 +8,12 @@ sudo apt install locate -y
 sudo apt install telnet -y
 sudo apt install git -y
 sudo apt install rsync -y
+sudo apt install curl git unzip zip -y
+sudo apt install php-json php-gd -y
+sudo apt autoremove
+
+
+
 # Image procssing uils
 sudo apt install libjpeg-progs  jpegoptim gifsicle optipng pngquant webp -y
 sudo updatedb
