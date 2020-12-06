@@ -7,7 +7,7 @@ wget https://github.com/limitlessv/gcp_ha_wordpress/archive/master.zip
 unzip master.zip
 
 
-# Install Radis
+## Install Radis
 ```
 sudo apt update
 sudo apt-get install gcc make autoconf libc-dev pkg-config -y
