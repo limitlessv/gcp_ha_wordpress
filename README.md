@@ -9,9 +9,11 @@ unzip master.zip
 
 ## Install Radis
 ```
-sudo apt update
+sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install gcc make autoconf libc-dev pkg-config -y
 sudo apt-get install redis-server -y
+sudo apt autoremove
+
 ```
 
 Edit redis config
