@@ -117,3 +117,26 @@ cd
 wp config set WP_CACHE_KEY_SALT YOURDOMAIN.COM_
 wp plugin install redis-cache --activate
 ```
+
+### Redis check memory
+Memory is a critical resource for Redis performance. Used memory defines total number of bytes allocated by Redis using its allocator (either standard libc, jemalloc, or an alternative allocator such as tcmalloc).
+
+You can collect all memory utilization metrics data for a Redis instance by running “info memory”.
+
+Example from one of our servers
+ ```
+redis-cli
+127.0.0.1:6379> info memory
+Memory
+used_memory:11345728
+used_memory_human:10.82M
+used_memory_rss:25341952
+used_memory_rss_human:24.17M
+used_memory_peak:13190520
+used_memory_peak_human:12.58M
+used_memory_peak_perc:86.01%
+used_memory_overhead:1110486
+used_memory_startup:795704
+used_memory_dataset:10235242
+used_memory_dataset_perc:97.02%
+```
