@@ -1,11 +1,21 @@
 # gcp_ha_wordpress
 
+## Step 1 - recreate the admin templete
+### Install misting packages
+
 High Availability WordPress - Config
 ```
+sudo apt-get update -y && sudo apt-get upgrade -y
+sudo mkdir -p /opt/limitlessv/scripts
+sudo apt install -y zip
 wget https://github.com/limitlessv/gcp_ha_wordpress/archive/master.zip
 ```
 unzip master.zip
 
+```
+sudo mkdir -p /opt/limitlessv/scripts
+sudo apt install -y zip
+```
 
 ## Install Radis
 ```
