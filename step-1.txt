@@ -33,6 +33,9 @@ sudo pecl install imagick
 sudo apt-get -y install libvips-dev
 sudo pecl install vips
 
+# install php redis
+sudo apt install php-redis
+
 # PHP
 sudo nano /etc/php/7.4/fpm/php.ini
 sudo nano /etc/php/7.4/cli/php.ini
