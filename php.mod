@@ -27,9 +27,9 @@ opcache.revalidate_freq = 60
 
 #Additional extension
 #extension_dir = /opt/bitnami/php/lib/php/extensions
-#extension=imagick.so
-#extension=vips.so
-#extension=redis.so
+extension=imagick.so
+extension=vips.so
+extension=redis.so
 #extension = memcached.so
 
 # --------------------------------------------------------------------------------------------------------
