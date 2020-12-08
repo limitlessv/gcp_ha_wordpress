@@ -3,7 +3,7 @@
 set -e
 
 echo "# The next line updates PATH for the WP248 scripts." >> /etc/profile
-echo "# added by wp248 script" >> /etc/profile
-echo "if [ -f '/opt/wp248/scripts/path.bash.inc' ]; then . '/opt/wp248/scripts/path.bash.inc'; fi" >> /etc/profile
+echo "# added by limitlessv script" >> /etc/profile
+echo "if [ -f '/opt/limitlessv/scripts/path.bash.inc' ]; then . '/opt/limitlessv/scripts/path.bash.inc'; fi" >> /etc/profile
 
-source /opt/wp248/scripts/path.bash.inc
+source /opt/limitlessv/scripts/path.bash.inc
