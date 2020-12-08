@@ -31,4 +31,4 @@ done
 export VISUAL="nano"
 
 #path_append $( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )
-path_append /opt/wp248/scripts
+path_append /opt/limitlessv/scripts
