@@ -9,18 +9,19 @@ sudo apt-get update -y && sudo apt-get upgrade -y
 sudo mkdir -p /opt/limitlessv/scripts
 sudo apt install -y zip
 wget https://github.com/limitlessv/gcp_ha_wordpress/archive/main.zip
+
+#
+unzip main.zip
 sudo cp -Rf gcp_ha_wordpress-main/* /opt/limitlessv/scripts/
-sudo rm -rf main.zip
-sudo rm -rf gcp_ha_wordpress-main
 sudo chmod +x /opt/limitlessv/scripts/*.sh
 
-```
-unzip main.zip
-sudo cp gcp_ha_wordpress-main
+# General add scripts to the path
+/opt/limitlessv/scripts/adding-scripts-path.sh
 
-```
-sudo mkdir -p /opt/limitlessv/scripts
-sudo apt install -y zip
+# Clean up
+sudo rm -rf main.zip
+sudo rm -rf gcp_ha_wordpress-main
+
 ```
 
 ## Install Radis
