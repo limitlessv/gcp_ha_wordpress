@@ -16,7 +16,7 @@ sudo cp -Rf gcp_ha_wordpress-main/* /opt/limitlessv/scripts/
 sudo chmod +x /opt/limitlessv/scripts/*.sh
 
 # General add scripts to the path
-/opt/limitlessv/scripts/adding-scripts-path.sh
+sudo /opt/limitlessv/scripts/adding-scripts-path.sh
 
 # Clean up
 sudo rm -rf main.zip
