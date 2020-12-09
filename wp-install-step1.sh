@@ -19,8 +19,8 @@ sudo apt install libjpeg-progs  jpegoptim gifsicle optipng pngquant webp -y
 sudo updatedb
 
 
-sudo apt-get install php-pear php-dev
-sudo apt-get -y install gcc make autoconf libc-dev pkg-config
+sudo apt-get install php-pear php-dev -y
+sudo apt-get install gcc make autoconf libc-dev pkg-config -y
 
 sudo pecl channel-update pecl.php.net
 
